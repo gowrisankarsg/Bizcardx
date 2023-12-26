@@ -14,7 +14,7 @@ conn = mysql.connector.connect(host='localhost',port='3306',user='root',password
 cursor = conn.cursor()
 
 def home():
-    st.title("BizCardX: Extracting Business Card Data with OCR")
+    st.title("Business Card Information Extraction App")
     overview = """
         <style>
         p{
